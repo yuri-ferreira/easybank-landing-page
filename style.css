@@ -2,6 +2,11 @@ body {
   font-family: 'Public Sans', sans-serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
+
 header {
   background-color: #fff;
   width: 1903px;
@@ -113,4 +118,67 @@ section .calloutinvite {
 .why {
   background-color: hsl(220, 16%, 96%);
   height: 700px;
+  margin-top: -80px;
+}
+
+.tiph {
+  margin-left: 250px;
+  position: relative;
+  top: 150px;
+}
+
+.tittle-why {
+  font-size: 44px;
+  font-weight: 300;
+  color: hsl(233, 26%, 24%);
+}
+
+.paragraph-why {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: -40px;
+  color: hsl(233, 8%, 62%);
+}
+
+.listwhy {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.listwhy  {
+  margin-left: 212px;
+  margin-top: 240px;
+}
+
+.listwhy li {
+  margin-right: 123px;
+}
+
+.listwhy h2 {
+  font-weight: 300;
+  color: hsl(233, 26%, 24%);
+  font-size: 28px;
+
+}
+
+.listwhy p {
+  color: hsl(233, 8%, 62%);
+  width: 190px;
+  font-size: 16px;
+}
+
+.listwhy .budg {
+  color: hsl(233, 8%, 62%);
+  width: 261px;
+  font-size: 16px;
+}
+
+.listwhy .onb {
+  color: hsl(233, 8%, 62%);
+  width: 261px;
+  font-size: 16px;
+}
+
+.listwhy .ap {
+  width: 220px;
 }
