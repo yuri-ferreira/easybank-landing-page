@@ -1,0 +1,116 @@
+body {
+  font-family: 'Public Sans', sans-serif;
+}
+
+header {
+  background-color: #fff;
+  width: 1903px;
+  height: 60px;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+header img {
+  margin-left: 250px;
+}
+
+nav {
+  margin-left: 300px;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: hsl(233, 8%, 62%);
+}
+
+header button {
+
+  margin-left: auto;
+  margin-right: 250px;
+  color: #fff;
+  font-weight: 500;
+  background: rgb(56,173,80);
+  background: linear-gradient(90deg, rgba(56,173,80,1) 0%, rgba(43,183,218,1) 100%); 
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+/* Section Callout To Invite */
+
+section .calloutinvite {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 1050px;
+}
+
+.calloutinvite h4 {
+  color: hsl(233, 26%, 24%);
+  font-size: 60px;
+  font-weight: 400;
+  width: 450px;
+  position: relative;
+  left: 250px;
+  top: 80px;
+  margin-bottom: 100px;
+}
+
+.calloutinvite p {
+  color: hsl(233, 8%, 62%);
+  font-size: 18px;
+  width: 458px;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+.btn {
+  color: #fff;
+  font-weight: 500;
+  background: rgb(56,173,80);
+  background: linear-gradient(90deg, rgba(56,173,80,1) 0%, rgba(43,183,218,1) 100%); 
+  border: none;
+  border-radius: 20px;
+  padding: 14px 40px;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.imgs {
+  margin-top: -494px;
+  height: 900px;
+}
+   
+.bckg {
+  display: block;
+  margin-left: auto;
+  width: 1000px;
+}
+
+.cellphones {
+  margin: auto;
+  display: block;
+  position: relative;
+  top: -860px;
+  left: 500px;
+}
+
+/* Section WHY */
+
+.why {
+  background-color: hsl(220, 16%, 96%);
+  height: 700px;
+}
