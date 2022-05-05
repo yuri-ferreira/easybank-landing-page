@@ -1,9 +1,15 @@
 body {
   font-family: 'Public Sans', sans-serif;
+  background-color: hsl(0, 0%, 98%);
 }
 
 ul {
   list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  margin: 0;
 }
 
 
@@ -38,8 +44,34 @@ nav ul li {
 }
 
 nav ul li a {
+  position: relative;
   text-decoration: none;
   color: hsl(233, 8%, 62%);
+}
+/*
+nav a:hover {
+ padding-bottom: 15px;
+ border-bottom: 5px solid rgb(56,173,80);
+ border-image: linear-gradient(90deg, rgba(56,173,80,1) 0%, rgba(43,183,218,1) 100%) 1;
+ transition: linear 0.1s;
+}
+*/
+
+
+nav a:after {
+  position: absolute;
+  top: 34px;
+  content: "";
+  display: block;
+  width: 0%;
+  height: 5px;
+  background-color: rgb(56,173,80);
+  background-color:  linear-gradient(90deg, rgba(56,173,80,1) 0%, rgba(43,183,218,1) 100%) 1;
+}
+
+nav a:hover::after {
+  width: 100%;
+  transition: linear 0.1s;
 }
 
 header button {
@@ -181,4 +213,180 @@ section .calloutinvite {
 
 .listwhy .ap {
   width: 220px;
+}
+
+/* Article Section */
+
+.article h4 {
+  margin-left: 250px;
+  font-size: 44px;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.article-boxes {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 212px;
+  margin-bottom: 100px;
+}
+
+.article-boxes li {
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  height: 400px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background-position: top;
+  background-size: 100% 200px;
+  background-repeat: no-repeat;
+}
+
+.article-boxes li:nth-child(1) {
+  background-image: url(/img/image-currency.jpg);
+}
+.article-boxes li:nth-child(2) {
+  background-image: url(/img/image-restaurant.jpg);
+}
+.article-boxes li:nth-child(3) {
+  background-image: url(/img/image-plane.jpg);
+}
+.article-boxes li:nth-child(4) {
+  background-image: url(/img/image-confetti.jpg);
+}
+
+.article-boxes span {
+  display: block;
+  margin-top: 215px;
+  margin-left: 25px;
+  font-size: 12px;
+  color: hsl(233, 8%, 62%);
+}
+
+.article-boxes h2 {
+  display: block;
+  width: 266px;
+  margin-left: 25px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.article-boxes p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  margin-left: 25px;
+  max-width: 260px;
+  font-size: 14px;
+  color: hsl(233, 8%, 62%);
+}
+
+.article h2:hover {
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: hsl(233, 26%, 24%);
+}
+
+.logoeb {
+  display: block;
+  position: relative;
+  padding-top: 60px;
+  margin-left: 250px;
+}
+
+.sociamedia {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 210px;
+  margin-top: 60px;
+}
+
+.sociamedia li {
+  margin-right: 10px;
+}
+
+
+.sociaedia a {
+  display: block;
+}
+
+.sociamedia img:hover {
+  fill: hsl(136, 65%, 51%);
+  stroke: hsl(136, 65%, 51%);
+}
+
+.callto-1 {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 500px;
+  margin-top: -120px;
+}
+
+.callto-1 li {
+  margin-bottom: 20px;
+}
+
+.callto-1 span {
+  color: #fff;
+}
+
+.callto-2 {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 700px;
+  margin-top: -130px;
+}
+
+.callto-2 li {
+  margin-bottom: 20px;
+}
+
+.callto-2 span {
+  color: #fff;
+}
+
+footer span:hover {
+  color: hsl(136, 65%, 51%);
+  transition: ease-in 0.2s;
+}
+
+
+footer button {
+  display: block;
+  margin-top: -130px;
+  margin-left: auto;
+  margin-right: 250px;
+  font-weight: 500;
+  background: rgb(56,173,80);
+  background: linear-gradient(90deg, rgba(56,173,80,1) 0%, rgba(43,183,218,1) 100%); 
+  border: none;
+  border-radius: 16px;
+  padding: 14px 24px;
+}
+footer button a {
+  color: #fff;
+}
+
+button:hover {
+  filter: brightness(1.2);
+  transition: ease-in 0.2s;
+}
+
+footer .rights {
+  display: block;
+  padding-left: 1430px;
+  padding-top: 20px;
+  color: hsl(233, 8%, 62%);
 }
