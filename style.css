@@ -15,7 +15,7 @@ a {
 
 header {
   background-color: #fff;
-  width: 1903px;
+  width: 200vh;
   height: 60px;
   display: flex;
   text-align: center;
@@ -126,11 +126,12 @@ section .calloutinvite {
   margin-left: 250px;
 }
 
+
 .imgs {
   margin-top: -494px;
   height: 900px;
 }
-   
+
 .bckg {
   display: block;
   margin-left: auto;
@@ -141,11 +142,11 @@ section .calloutinvite {
   margin: auto;
   display: block;
   position: relative;
-  top: -860px;
+  top: -1290px;
   left: 500px;
 }
 
-/* Section WHY */
+
 
 .why {
   background-color: hsl(220, 16%, 96%);
@@ -391,3 +392,69 @@ footer .rights {
   color: hsl(233, 8%, 62%);
 }
 
+
+/*Mobile*/
+
+@media (min-width: 700px) {
+  .bckgmobile {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  .calloutinvite img {
+    width: 10%;
+    height: 20%;
+  }
+  header {
+    width: 50vh;
+  }
+  header img {
+    margin-left: 20px;
+  }
+  header nav {
+    visibility: hidden;
+  }
+  header button {
+    visibility: hidden;
+  }
+  .calloutinvite{
+    display: block;
+  }
+  .calloutinvite h4 {
+   font-size: 38px;
+   position: static;
+   margin: auto;
+   margin-top: 400px;
+   margin-bottom: 20px;
+   text-align: center;
+   width: 300px;
+  }
+  .calloutinvite p {
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    width: 350px;
+  }
+  .calloutinvite .btn {
+    padding: 12px 30px;
+    margin-left: 95px;
+    text-align: center;
+  }
+  .calloutinvite .bckg {
+    visibility: hidden;
+  }
+  .calloutinvite .bckgmobile {
+    width: 360px;
+    height: 300px;
+    position: relative;
+    top: -341px;
+  }
+  .calloutinvite .cellphones {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: -640px;
+    left: 1px;
+  }
+}
