@@ -146,7 +146,7 @@ section .calloutinvite {
   left: 500px;
 }
 
-
+/*why section*/
 
 .why {
   background-color: hsl(220, 16%, 96%);
@@ -216,7 +216,7 @@ section .calloutinvite {
   width: 220px;
 }
 
-/* Article Section */
+/* Article Section */ 
 
 .article h4 {
   margin-left: 250px;
@@ -278,7 +278,7 @@ section .calloutinvite {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-line-clamp: 4; 
   -webkit-box-orient: vertical;
   margin-left: 25px;
   max-width: 260px;
@@ -413,7 +413,7 @@ footer .rights {
     margin-left: 20px;
   }
   header nav {
-    visibility: hidden;
+    display: none;
   }
   header button {
     visibility: hidden;
@@ -445,7 +445,7 @@ footer .rights {
     visibility: hidden;
   }
   .calloutinvite .bckgmobile {
-    width: 360px;
+    width: 370px;
     height: 300px;
     position: relative;
     top: -341px;
@@ -455,6 +455,61 @@ footer .rights {
     height: 400px;
     position: relative;
     top: -640px;
-    left: 1px;
+    left: auto;
+    right: auto;
+  }
+  .why {
+    position: relative;
+    top: -320px;
+    height: 1580px;
+  }
+  .tiph {
+    margin: auto;
+    text-align: center;
+  }
+  .tittle-why {
+    font-size: 38px;
+  }
+  .paragraph-why {
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    max-width: 30ch; 
+  }
+  .listwhy {
+    flex-flow: column;
+    margin-top: 240px;
+    margin-left: -30px;
+    text-align: center;
+  }
+  .listwhy ul {
+    margin-left: 100px;
+    margin: auto;
+  }
+  .listwhy li {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .article {
+    margin-top: -340px;
+  }
+  .article h4 {
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: auto;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  }
+  .article-boxes {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 100px;
+  margin-left: auto;  
+  }
+  .article-boxes li {
+    margin-bottom: 20px;
   }
 }
