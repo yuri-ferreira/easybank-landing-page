@@ -512,4 +512,43 @@ footer .rights {
   .article-boxes li {
     margin-bottom: 20px;
   }
+  footer {
+    height: 600px;
+  }
+  footer .logoeb {
+    margin: auto;
+  }
+  .sociamedia {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: auto;
+    margin-left: -30px;
+    margin-top: 40px;
+  }
+  .callto-1 {
+    flex-flow: column wrap;
+    margin: auto;
+    margin-left: -40px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .callto-2 {
+    flex-flow: column wrap;
+    margin: auto;
+    margin-left: -40px;
+    text-align: center;
+  }
+  footer button {
+    padding: 10px 30px;
+    position: relative;
+    top: 140px;
+    left: 120px;
+  }
+  footer .rights {
+    display: block;
+    margin-left: 60px;
+    margin-top: 180px;
+    padding: 0%;
+  }
 }
