@@ -300,6 +300,10 @@ footer {
   background-color: hsl(233, 26%, 24%);
 }
 
+footer button {
+  color: #fff;
+}
+
 .logoeb {
   display: block;
   position: relative;
@@ -544,6 +548,7 @@ footer .rights {
     position: relative;
     top: 140px;
     left: 120px;
+    color: #fff;
   }
   footer .rights {
     display: block;
